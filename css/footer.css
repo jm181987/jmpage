@@ -24,7 +24,7 @@
 	}
 
 	.footer-dedicatoria {
-		text-align: right;
+		text-align: left;
 	}
 	.footer-dedicatoria a {
 		color: var(--color-white);
