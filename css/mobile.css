@@ -1,4 +1,4 @@
-@media (max-width: 850px) {
+@media (max-width: 550px) {
     /* ---- GENERALES ---- */
     html {
         font-size: 12px;
@@ -10,15 +10,15 @@
 		
     }	
         .hero-border-imagen {
-            border-top-width: 250px;
+            border-top-width: 150px;
         }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 350px) {
     /* ---- HERO ---- */
 	.hero {
-        height: 220px;
-		background-image: url("../images/hero.png");
+        height: auto;
+		background-image: url("../images/hero.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
