@@ -10,8 +10,9 @@ body{
   font-family: "Open Sans",  Impact;
 }
 .area{
+
   text-align:center;
-  font-size:6.5em;
+  font-size: 50px;
   color:#3ca7a7;
   letter-spacing: 7px;
   font-weight:700;
