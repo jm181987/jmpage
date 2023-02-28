@@ -1,0 +1,105 @@
+.body {
+display:flex
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+ background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat;
+  font-family: "Open Sans",  Impact;
+}
+.area{
+  text-align:center;
+  font-size:6.5em;
+  color:#3ca7a7;
+  letter-spacing: 7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+
+
+
+
+.subir {
+  display: flex;
+  justify-content: center;
+
+   
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: rgb(88, 126, 233);
+    box-shadow: 0 0 25px rgb(11, 27, 71);
+  }
+  
+.subir:hover {
+    text-transform: uppercase;
+    box-shadow: 0 0 5px rgb(0, 255, 200), 0 0 25px rgb(51, 14, 78),
+      0 0 50px rgb(0, 238, 255), 0 0 100px rgb(0, 255, 170);
+  }
+
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+width: 100%;
+  
+     
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: var(--color-white-fondo);
+    position: relative;
+    z-index: 300;
+    margin: 2 var(--espaciado-muy-alto);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--espaciado-normal);
+  }
+  
+  .card-text {
+    background-color: var(--color-white-fondo);
+    position: relative;
+    z-index: 300;
+    margin: 2 var(--espaciado-muy-alto);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--espaciado-normal);
+    align-items: center;
+  }

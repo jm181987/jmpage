@@ -5,7 +5,7 @@
 .conocimientos {
 	background-color: var(--color-white-fondo);
 	position: relative;
-	z-index: 200;
+	z-index: 500;
 }
 
 	.conocimientos-grilla {
