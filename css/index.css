@@ -26,7 +26,7 @@
   
   transition: 0.5s;
   transition-property: box-shadow;
-  background: rgb(88, 126, 233);
+  background: rgb(0, 0, 0);
   box-shadow: 0 0 25px rgb(11, 27, 71);
 }
 
